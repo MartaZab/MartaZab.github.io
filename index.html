@@ -1,38 +1,165 @@
 <!doctype html>
 <head>
 <meta charset="utf-8">
-<title> Moja strona </title>
+<title> Marta Zabój </title>
 <meta name="description" content = "The HTML5 Hello world">
 <meta name="author" content="Marta Zabój">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <link rel="stylesheet" type="text/css" 
 href="styles.css">
 
-<body>
-<h1> Hello World!</h1>
-<p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." </p>
-<p>"Nie ma nikogo, kto lubiłby ból dla samego bólu, szukał go tylko po to, by go poczuć, po prostu dlatego,
- że to ból..."</p>
- 
- <h3>Lista umiejętności</h3>
- <ol>
- dokładność
- </ol>
- <ol>zorganizowanie
- </ol>
- <ol>
- punktualność
- </ol>
- <ol>
-systematyczność
- </ol>
- <a href = "https://www.polskieszlaki.pl/gory/"
- target = "-blank">
-<img src = "https://static.polskieszlaki.pl/zdjecia/wycieczki/2015-06/355_355/tatry6-1.jpg">
- </a>
- <br>
-<img src = "C:\Programowanie - materiały\HTML\gory.jpg" alt="" width="300" height="300">
+<body onload="showAlert('Witaj!\n Jak się masz?')"> 
+
+<div class="sticky-top">
+<nav class="navbar navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+	<p>
+  <a class="nav-link" data-toggle="collapse" href="#contact" role="button" aria-expanded="false" aria-controls="collapseExample">
+   Kontakt
+  </a>
+</p>
+<div class="collapse" id="contact">
+  <div class="card card-body">
+   <p> e-mail: marta.zaboj@gmail.com </p>
+	  <p> telefon: 504-385-037 </p>
+  </div>
+</div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://github.com/MartaZab">GitHub</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://gitlab.com">GitLab</a>
+    </li>
+  </ul>
+</nav>
+</div>
+
+<div class= "container">
+<div class="row">
+<div class="col-3">
+<div class="jumbotron text-center" style="margin-bottom:0">
+<img src = "C:\Programowanie - materiały\HTML\gory.jpg" alt="" width="200" height="200">
+</div>
+</div>
+<div class="col-9">
+<p>
+<br>
 </br>
+<p> Cześć, nazywam się</p>
+  <h1><b>Marta Zabój</b></h1>
+  <p>Zapraszam do zapoznania się z moim profilem!
+  </p> 
+</p>
+</div>
+</div>
+</div>
+<div class="p-3 mb-10 bg-success text-white"></div>
+<div class="jumbotron text-center" style="margin-bottom:0">
+<div class= "container">
+<div class="row">
+<div class="col-3">
+<p>
+  <h3>Wykształcenie i kursy</h3>
+   
+  <a class="list-group-item list-group-item-action list-group-item-success" data-toggle="collapse" href="#java" role="button" aria-expanded="false" aria-controls="collapseExample">
+   Kurs JAVA od podstaw
+  </a>
+
+<div class="collapse" id="java">
+ <p> <b>23.03.2019 - 30.11.2019</b> </p>
+ <div>
+  <li><left>SQL</left>
+  <ul style="list-style-type:circle;">
+  <li>relacje, bazy i tabele</li>
+   <li>nierelacyjne bazy danych</li>
+    <li>CRUD</li>
+	<li>format JSON</li>
+  </ul>
+  </li>
+  <li><left>HTML</left></li> 
+  <li><left>CSS</left></li>
+  <li><left>Java Script</left></li> 
+  </div>
+</div>
+    <a class="list-group-item list-group-item-action list-group-item-success" data-toggle="collapse" href="#java" role="button" aria-expanded="false" aria-controls="collapseExample">
+   Matematyka stosowana
+  </a>
+
+<div class="collapse" id="java">
+<p> <b>2009 - 2014</b> </p>
+<p>Praca magisterska: <i>Modelowanie struktury terminowej stóp procentowych</i></p>  
+	<p>
+  <a class="nav-link" data-toggle="collapse" href="#fibb" role="button" aria-expanded="false" aria-controls="collapseExample">
+   Ciąg Fibonacciego
+  </a>
+</p>
+<div class="collapse" id="fibb">
+  <div class="card card-body">
+
+Podaj liczbę: <input id="fibbInput">
+</input>
+<p>Kliknij przycisk Fibonacci, aby zobaczyć wynik.</p>
+<button type="button" color="#62d15a" onclick="calculateFibb()">Fibonacci!</button>
+ <font color="green">Wynik działania to: </font>
+<div id="result">
+0
+</div>
+  </div>
+</div>
+  
+    </div>
+	</div>
+</p>
+
+<div class="col-3">
+<p>
+<h3>Doświadczenie zawodowe</h3>
+      <p>Dom Maklerski Noble Securities S.A.</p>
+      <p>
+	</p>
+</p>
+</div>
+<div class="col-3">
+<p>
+<h3>Umiejętności i kompetencje</h3>
+	  <ul style="list-style-type:disc;">
+	   <li>dokładność</li>
+  <li>systematyczność</li>
+  <li>...</>
+  </ul>
+  <font color = "green">Lista telantów według Gallupa</font>
+  <p align="left">
+  <ol>
+      <li>Achiever</li>
+      <li>Restorative</li>
+	  <li>Harmony</li>
+	  <li>Responsibility</li>
+	  <li>Analytical</li>
+	  </p>
+    </ol>
+</p>
+</div>
+<div class="col-3">
+<p>
+<h3>Zainteresowania</h3>
+      <p>góry</p>
+	  <p>bieganie</p>
+	  <p>gotowanie</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="plik.js"></script>
 </body>
 </html>
