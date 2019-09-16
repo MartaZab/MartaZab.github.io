@@ -1,14 +1,34 @@
+
 body {
-	background-color: lightblue;
+	background-color: #b9ed79;
 }
 
 h1 {
-	color: #f54242;
-	text-align: center;
+	color: #24752a;
+	text-align: left;
 	font-size: 28px;
+
 }
 
 h3 {
   color: green;
-  font-size: 18px;
+  font-size: 22px;
 }
+
+.myclass {
+	background-color: #ebeb23;
+	font-size: 2rem;
+}
+
+#firstname {
+background-color : #23d0eb;
+font-size: 15px;
+}
+
+
+.col-5 {
+	background-color: #9ac7e3;
+	font-size: 26px;
+	color: white;
+}
+
