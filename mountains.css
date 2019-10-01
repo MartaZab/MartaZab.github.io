@@ -1,0 +1,41 @@
+body {
+	background-color: #22c7b6;
+}
+
+h1 {
+	color: #24752a;
+	text-align: center;
+	font-size: 32px;
+
+}
+h3 {
+
+	font-size: 18px;
+	color: red;
+
+}
+.margin {
+  border: 1px solid black;
+  margin: 25px 50px;
+  background-color: lightblue;
+}
+div {
+  margin-right: 40px;
+}
+
+.obraz_left
+{
+     float: left;
+     margin-right: 15px;
+
+}
+
+.hobby {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+
+.a {
+  text-align: center;
+}
