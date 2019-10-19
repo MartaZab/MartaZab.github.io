@@ -8,10 +8,18 @@ h1 {
 	font-size: 32px;
 
 }
+
+.h1 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+
+}
+
 h3 {
 
-	font-size: 18px;
-	color: red;
+	font-size: 26px;
+	color: darkblue;
 
 }
 .margin {
@@ -31,11 +39,46 @@ div {
 }
 
 .hobby {
-  background-color: tomato;
-  color: white;
-  padding: 10px;
+  background-color: white;
+  color: blue;
+  padding: 15px;
 }
 
 .a {
+  text-align: center;
+  float: center;
+}
+
+.obraz_right
+{
+     float: right;
+     margin-right: 15px;
+
+}
+
+.box {
+	background: gold;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.flex-container {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
   text-align: center;
 }

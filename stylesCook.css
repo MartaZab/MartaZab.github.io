@@ -1,0 +1,32 @@
+body {
+	background-color: #edd30c;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 34px;
+
+}
+h2 {
+	color: green;
+	text-align: center;
+	font-size: 22px;
+
+}
+
+h3 {
+  color: gray;
+  font-size: 18px;
+  font-style: center;
+}
+
+.myclass {
+	background-color: #ebeb23;
+	font-size: 2rem;
+}
+
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
